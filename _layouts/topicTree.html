@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ {%- include head.html -%}
+    <body>
+
+    <p class="font-weight-bold"> {{ page.topic | escape }} </p>  
+
+
+    <div class="col .mr-auto" > 
+
+        
+    {%  for posts in site.DigitalLibrary %}
+        {% if posts.collection == page.topic %}
+        <div class="row .mr-auto" > 
+        <h4>  <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a>  </h4>
+        </div>
+        {% endif %}
+    {% endfor %} 
+
+    {%  for posts in site.Electronics %}
+        {% if posts.collection == page.topic %}
+        <div class="row .mr-auto" > 
+        <h4>  <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a>  </h4>
+        </div>  
+        {% endif %}
+    {% endfor %}   
+    
+    {%  for posts in site.GeneralTopics %}
+        {% if posts.collection == page.topic %}
+        <div class="row .mr-auto" > 
+        <h4>  <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a>  </h4>
+        </div>
+        {% endif %}
+    {% endfor %}  
+
+    {%  for posts in site.Projects %}
+        {% if posts.collection == page.topic %}
+        <div class="row .mr-auto" > 
+        <h4>  <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a>  </h4>
+        </div>
+        {% endif %}
+    {% endfor %}  
+
+    {%  for posts in site.Software %}
+        {% if posts.collection == page.topic %}
+        <div class="row .mr-auto" > 
+        <h4>  <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a>  </h4>
+        </div>
+        {% endif %}
+    {% endfor %}  
+
+    </div>  
+
+    {%- include footer.html -%}
+    </body>
+</html>
+ 

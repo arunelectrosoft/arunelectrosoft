@@ -1,0 +1,35 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!---  HTML responsive webpage configuration starting  --->
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+ 
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
+
+  <nav class="navbar navbar-expand navbar-light bg-info">
+      <ul class ="nav nav-pills ">
+        {% assign links = site.data.navigation %}
+        <li class="nav-item  ">
+          <a class="nav-link " href="{{ site.baseurl }}/index.html"> Home </a>
+        </li>
+    
+        <li class="nav-item  dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Topics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            {% for item in site.data.navigation %}
+              <a class="dropdown-item {{class}} " href= "{{ site.baseurl }}{{ item.url }}" > {{ item.title }} </a>
+            {% endfor %}
+          </div>
+        </li>
+      </ul>
+      </nav>
+
+  <!---  For later use
+    {%- feed_meta -%} 
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+    --->
+</head>
