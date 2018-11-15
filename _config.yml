@@ -39,3 +39,14 @@ plugins:
 sass:
   sass_dir: assets
   style: compressed
+
+
+  # List of Categories to be used
+  # Linux
+  # Blogging
+  # DIY
+  # SubjSkill
+  # Programming
+  # Chemistry
+  # Maths
+  # Physics

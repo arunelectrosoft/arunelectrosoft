@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Learning Jekyll - Jekyll Setup"
+title:  "Learning Jekyll Setup"
 date:   2018-09-22
-categories: LearningSeries
+categories: Blogging
 ---
 
 Jekyll Installation is simple.
@@ -30,5 +30,4 @@ What are the default folders ?
 5. _sass is for the sass based css generator
 6. assets and images are folders used to have extra content related resources
 
-Next post , I will check out the frontmatter or _config file specific options,
-I learned.
+

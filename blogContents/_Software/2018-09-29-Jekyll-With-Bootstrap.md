@@ -1,11 +1,8 @@
 ---
 title: Jekyll with BootStrap
 layout: post
-categories: LearningSeries
+categories: Blogging
 ---
-
-
-
 
 What is Bootstrap ?
 Why so much craze on this new topic called bootstrap, to understand this
