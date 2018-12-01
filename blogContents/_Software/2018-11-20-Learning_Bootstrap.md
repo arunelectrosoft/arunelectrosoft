@@ -39,7 +39,7 @@ Url:  {{ site.data.images[farm-image-1].url}}
 <br>
 
 Image with Bootstrap Fluid Image class :
- <img src= "{{ site.data.images[page.imageused1].url }}" class="img-fluid" alt="farm image icon alternative text"  style="height:auto; width:auto; display:block; max-width:800px; max-height:800px; ">
+ <img src= "{{ site.baseurl }}{{ site.data.images[page.imageused1].url }}" class="img-fluid" alt="farm image icon alternative text"  style="height:auto; width:auto; display:block; max-width:800px; max-height:800px; ">
 
 <a href="https://getbootstrap.com/docs/4.1/content/images/"> Bootstrap Image tutorials </a>
 
