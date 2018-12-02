@@ -3,16 +3,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!---  HTML responsive webpage configuration starting  --->
   <meta name="viewport" content="width=device-width, intial-scale=1.0">
- 
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
-
-  <nav class="navbar navbar-expand navbar-light bg-info">
-      <ul class ="nav nav-pills ">
-        {% assign links = site.data.navigation %}
-        <li class="nav-item  ">
-          <a class="nav-link " href="{{ site.baseurl }}/index.html"> Home </a>
+  {% assign links = site.data.navigation %}
+  <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-left">
+    <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
+    <img src="{{ site.baseurl }}/assets/images/brandicon1.jpg" height="30" alt="Arun'sBlogIcon">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
         </li>
-    
         <li class="nav-item  dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Topics
@@ -23,8 +27,12 @@
             {% endfor %}
           </div>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}/about.html">About</a>
+        </li>
       </ul>
-      </nav>
+    </div>  
+  </nav>
 
   <!---  For later use
     {%- feed_meta -%} 
