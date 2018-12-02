@@ -1,11 +1,11 @@
-title: TechBlog Organising of Experience
+title: Technical Memory
 email: arun.electrosoft@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog Template for Jekyll with GitHub Pages and Bootstrap integrated. 
   This template is tested with latest Bootstrap 4 features. 
 baseurl: /TechMemory
 url: https://arunelectrosoft.github.io/
-github_username:  arunelectrosofts
+github_username:  arunelectrosoft
 markdown: kramdown
 
 
