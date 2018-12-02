@@ -29,3 +29,11 @@ For Images/icons, following free websites will help.
     <dt class="col-sm-3"> <a href="https://unsplash.com/"> Unsplash </a> </dt>
     <dd class="col-sm-9"> Images but not all are free </dd>
 </dl>
+
+
+<br>
+<br>
+
+How to add google add sense and google-analytics to tech blog ?
+
+<a href="http://www.lewisgavin.co.uk/Google-Analytics-Adsense/">lewisgavin Blog helped me ! </a>
