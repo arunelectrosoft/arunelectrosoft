@@ -4,7 +4,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Blog Template for Jekyll with GitHub Pages and Bootstrap integrated. 
   This template is tested with latest Bootstrap 4 features. 
 baseurl: /TechMemory
-url: https://arunelectrosoft.github.io/
+# Working baseurl for github.io  baseurl: /TechMemory
+# also url for webpage till in github.io is  url: https://arunelectrosoft.github.io/
+url: https://www.creativesaplings.com
 github_username:  arunelectrosoft
 markdown: kramdown
 
