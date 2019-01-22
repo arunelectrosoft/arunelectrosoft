@@ -44,11 +44,10 @@ sass:
 
 
   # List of Categories to be used
-  # Linux
+  # OSTips
   # Blogging
   # DIY
-  # SubjSkill
-  # Programming
+  # DigitalLibrary
   # Chemistry
   # Maths
   # Physics
@@ -60,7 +59,7 @@ sass:
   # staticKnowledge
   # dynamicIdeas
   # dynamicProjects
-  # WebRefLibrary
+  # 
   # 
   #
   #
