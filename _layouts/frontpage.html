@@ -5,10 +5,27 @@
     <div class="container" >
         {%- include frontPageStyle1.html -%}
     </div>
+
+
+    {% comment %}
+    <!---    Following section is to include the 
+        contents from posts, which uses this layout file. 
+        Since it is used for front page, 
+
+
+        As of now, i want to disable any manual contents
+        I want to autogenerate the front page contents 
+        using 
+         - jekyll code snippets
+         - jekyll site images
+         - jekyll site variables
+    -->
     <p class="container text-sm-left">
         {{page.content}}
     </p>
+    {%  endcomment %}
+
  {%- include footer.html -%}
- {%- include google-adds.html -%}
+
 </body>
 </html>
