@@ -28,6 +28,9 @@ collections:
   DigitalLibrary:
     output: true
     permalink: /:collection/:path
+  WebPageTemplate:
+    output: true
+    permalink: /:collection/:path
 
 exclude:
   - Gemfile

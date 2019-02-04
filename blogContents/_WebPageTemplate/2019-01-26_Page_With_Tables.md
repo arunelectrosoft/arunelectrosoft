@@ -1,9 +1,17 @@
 ---
 layout: post
-title:  "Web Template with Tables"
+title:  "Web Page Template with Tables"
 date:   2019-01-26
 categories: Blogging
 ---
+<!-- 
+  This is a webpage with Tables in its content.
+  When we want to present the webpage with table and links, 
+  1. Take this page as base, i.e copy and paste to your folder
+  2. Edit the contents as you like. 
+  3. Enjoy with Blogging your Good Thoughts to World !!
+-->
+
 <table class="table table-striped">
   <thead>
     <tr>

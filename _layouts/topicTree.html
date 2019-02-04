@@ -45,7 +45,14 @@
                         <td>   <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a> </td>
                     </tr>
                     {% endif %}
-                {% endfor %}             
+                {% endfor %} 
+                {%  for posts in site.WebPageTemplate %}
+                {% if posts.collection == page.topic %}
+                <tr>
+                    <td>   <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a> </td>
+                </tr>
+                {% endif %}
+            {% endfor %}             
             </tbody>
     </div>
     {%- include footer.html -%}
