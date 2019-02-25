@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Web Page Template with Tables"
+title:  "Web Page Template with Pure Tables"
 date:   2019-01-26
 categories: Blogging
 ---
@@ -18,7 +18,7 @@ categories: Blogging
       <th scope="col">#</th>
       <th scope="col">Subject</th>
       <th scope="col">Website</th>
-      <th scope="col">Features</th>
+      <th scope="col">Salient Features of Websites</th>
     </tr>
   </thead>
   <tbody>
@@ -33,6 +33,13 @@ categories: Blogging
       <td>CPP</td>
       <td>LearnCPP</td>
       <td>withCodeSnippets</td>
+    </tr>
+      <tr>
+      <th scope="row">2</th>
+      <td>WebDesign</td>
+      <td>
+      <a href="https://www.w3schools.com">W3Schools</a></td>
+      <td>With Try online editor feature! Wow!</td>
     </tr>
   </tbody>
 </table>
