@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+<head>
  {%- include head.html -%}
+</head>
     <body>
     <p class="font-weight-bold"> {{ page.topic | escape }} </p>  
-    <div class="containerd" >
+    <div class="w-75 p-3" style="background-color: #eee;" >
     <table class="table table-hover table-sm">
             <thead class="thead-light">
               <tr>
@@ -11,48 +13,12 @@
               </tr>
             </thead>
             <tbody>
-                {%  for posts in site.DigitalLibrary %}
-                    {% if posts.collection == page.topic %}
+                    {% assign collection = site.collections | where: "label",page.topic | first %}
+                    {% for node in collection.docs reversed %}
                     <tr>
-                        <td>   <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a> </td>
+                        <td> <a href="{{ site.baseurl }}{{ node.url }}"> {{ node.title }} </a> </td>
                     </tr>
-                    {% endif %}
-                {% endfor %} 
-                {%  for posts in site.Electronics %}
-                    {% if posts.collection == page.topic %}
-                    <tr>
-                        <td>   <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a> </td>
-                    </tr>
-                    {% endif %}
-                {% endfor %} 
-                {%  for posts in site.GeneralTopics %}
-                    {% if posts.collection == page.topic %}
-                    <tr>
-                        <td>   <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a> </td>
-                    </tr>
-                    {% endif %}
-                {% endfor %} 
-                {%  for posts in site.Projects %}
-                    {% if posts.collection == page.topic %}
-                    <tr>
-                        <td>   <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a> </td>
-                    </tr>
-                    {% endif %}
-                {% endfor %} 
-                {%  for posts in site.Software %}
-                    {% if posts.collection == page.topic %}
-                    <tr>
-                        <td>   <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a> </td>
-                    </tr>
-                    {% endif %}
-                {% endfor %} 
-                {%  for posts in site.WebPageTemplate %}
-                {% if posts.collection == page.topic %}
-                <tr>
-                    <td>   <a href="{{ site.baseurl }}{{ posts.url }}"> {{ posts.title }} </a> </td>
-                </tr>
-                {% endif %}
-            {% endfor %}             
+                    {% endfor %}       
             </tbody>
     </div>
     {%- include footer.html -%}

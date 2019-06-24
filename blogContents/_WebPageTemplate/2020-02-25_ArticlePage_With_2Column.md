@@ -23,7 +23,7 @@ categories: Blogging
 
   <!--- contentes of first column -->
   <p class="font Italic">First Column Contents </p> 
-  
+
   This story is about <a href="https://en.wikipedia.org/wiki/Butterfly">Butterfly !! </a>
   <br>
   Let us see a Beautiful Butterfly !!
@@ -34,7 +34,6 @@ categories: Blogging
 
   <!--- contentes of second column -->
   <div class="col">
-
   <p class="font Italic">Second Column Contents </p> 
   <!--- Using Image is simple, just modify the source of weblink -->
   <img class="img-fluid" src="https://images.theconversation.com/files/232581/original/file-20180819-165967-ad9ept.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip" width="700" height="700">

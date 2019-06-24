@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blog Setup using Jekyll - Learning Experience"
+title:  "WebPage using Jekyll & GithubPages"
 date:   2018-09-22
 categories: Blogging
 ---
@@ -12,9 +12,13 @@ Refer to
 
 
 1. Install Ruby
-2. $sudo gem install jekyll
+2. $sudo gem install jekyll bundle
 3. $sudo jekyll new website_name
 4. $sudo jekyll serve
+
+5. Working with Blog for GitHub Pages
+   $ bundle update
+   $ sudo bundle exec jekyll clean && sudo bundle exec jekyll server --baseurl ""
 
 Above command will host the static site in local host http://127.0.0.1:4000
 
