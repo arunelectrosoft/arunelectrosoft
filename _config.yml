@@ -6,7 +6,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl:
 # Working baseurl for github.io  baseurl: /TechMemory
 # also url for webpage till in github.io is  url: https://arunelectrosoft.github.io/
-url: https://www.creativesaplings.com
+#url: https://www.creativesaplings.com
+url: https://arunelectrosoft.github.io/
 github_username:  arunelectrosoft
 markdown: kramdown
 
