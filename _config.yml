@@ -14,13 +14,13 @@ markdown: kramdown
 
 collections_dir: blogContents
 collections:
-  Software:
+  SmallCrafts:
     output: true
     permalink: /:collection/:path
   Electronics:
     output: true
     permalink: /:collection/:path
-  GeneralTopics:
+  HealthyMind:
     output: true
     permalink: /:collection/:path
   Projects:
@@ -29,7 +29,7 @@ collections:
   DigitalLibrary:
     output: true
     permalink: /:collection/:path
-  WebPageTemplate:
+  Agriculture:
     output: true
     permalink: /:collection/:path
 
