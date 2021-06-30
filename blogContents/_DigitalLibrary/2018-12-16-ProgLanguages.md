@@ -3,6 +3,9 @@ layout: post
 title:  "Good Reference Websites"
 date:   2019-01-22
 categories: DigitalLibrary
+imgsrc: "brandicon1.jpg"
+featured: "true"
+tags: [web, jekyll]
 ---
 <table class="table table-striped">
   <thead>

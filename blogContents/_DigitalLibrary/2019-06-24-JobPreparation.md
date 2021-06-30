@@ -3,6 +3,9 @@ layout: post
 title:  "Job Preparation Websites"
 date:   2019-01-22
 categories: DigitalLibrary
+imgsrc: "arun.png"
+featured: "true"
+tags: [job, jekyll]
 ---
 <table class="table table-striped">
   <thead>
