@@ -68,3 +68,5 @@ sass:
 #  GovtSchemes:
 #  siteTestingPosts:
 
+
+theme: jekyll-theme-slate
