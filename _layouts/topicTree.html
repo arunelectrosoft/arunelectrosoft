@@ -4,12 +4,12 @@
  {%- include head.html -%}
 </head>
     <body>
-    <p class="font-weight-bold"> {{ page.topic | escape }} </p>  
-    <div class="w-75 p-3" style="background-color: #eee;" >
-    <table class="table table-hover table-sm">
-            <thead class="thead-light">
+    <p class="font-weight-bold"> <h3> {{ page.topic | escape }} </h3> </p>  
+    <div class="px-4" >
+    <table class="table table-hover  ">
+            <thead class="thead-dark">
               <tr>
-                <th>Topics </th>
+                <th> <h4> Topics </h4> </th>
               </tr>
             </thead>
             <tbody>
@@ -20,6 +20,7 @@
                     </tr>
                     {% endfor %}       
             </tbody>
+    </table>
     </div>
     {%- include footer.html -%}
     </body>
