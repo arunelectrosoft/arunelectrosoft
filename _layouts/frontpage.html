@@ -24,23 +24,14 @@
         </style>
 </head>
 <body>
-    <div class="col-xs-12 col-sm-12 col-md-9">
-        {%- include frontPageStyle1.html -%}
+<div class="row">
+    <div class="col-xs-8 col-sm-8 col-md-10 .d-none .d-lg-block .d-xl-none">
+        {%- include frontPageCarousalStyle.html -%}
     </div>
-    <!---  Following section is to include the 
-        contents from posts, which uses this layout file. 
-        Since it is used for front page, 
-
-
-        As of now, i want to disable any manual contents
-        I want to autogenerate the front page contents 
-        using 
-         - jekyll code snippets
-         - jekyll site images
-         - jekyll site variables
-    -->
-
+     <div class="col-xs-4 col-sm-4 col-md-2 .d-none .d-lg-block .d-xl-none">
+        {%- include postSidebar.html -%}
+    </div>
+</div>
  {%- include footer.html -%}
-
 </body>
 </html>

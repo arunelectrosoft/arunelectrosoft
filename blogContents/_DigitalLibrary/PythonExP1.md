@@ -6,12 +6,10 @@ categories: DigitalLibrary
 imgsrc: ""
 tags: [python, proglang]
 ---
-
 # Python Basics
-
-| Agenda | Topic |
-| --- | ---   |
-| Data Variables | Example of Data Types in Python      | 
-
+| Agenda | <> | Topic |
+| --- | ---   | ---   |
+| Data Variables | | Example of Data Types in Python | 
+|    | |  |
 
 
