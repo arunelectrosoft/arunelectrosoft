@@ -75,13 +75,7 @@ Gif Creation tools are organized in following table
 </div>
 
 <br>
-How to hide and show only specific Bootstrap 
-elements !
-<a href="https://code.luasoftware.com/tutorials/bootstrap/bootstrap-hide-element-based-on-viewport-size/"> BootStrap Tutorials - Show Hide Elements </a
-
-
-<br>
-
+Above table example shows that HTML5 elements is supported in Jekyll 
 How to add google add sense and google-analytics to tech blog ?
 
 <a href="http://www.lewisgavin.co.uk/Google-Analytics-Adsense/">lewisgavin Blog helped me ! </a>
