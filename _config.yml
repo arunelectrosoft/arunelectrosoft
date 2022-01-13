@@ -19,13 +19,7 @@ kramdown:
 
 collections_dir: blogContents
 collections:
-  SmallCrafts:
-    output: true
-    permalink: /:collection/:path
-  Electronics:
-    output: true
-    permalink: /:collection/:path
-  HealthyMind:
+  Health:
     output: true
     permalink: /:collection/:path
   Projects:
@@ -34,7 +28,7 @@ collections:
   DigitalLibrary:
     output: true
     permalink: /:collection/:path
-  Agriculture:
+  Agri:
     output: true
     permalink: /:collection/:path
 
@@ -52,7 +46,7 @@ sass:
   style: compressed
 
 
-  # List of Categories to be used
+  # Digital Library List of Categories to be used
   # OSTips
   # Blogging
   # DIY

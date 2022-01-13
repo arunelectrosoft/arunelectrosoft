@@ -1,14 +1,10 @@
 - title: DigitalLibrary
   url: /DigitalLibrary.html
-- title: Electronics
-  url: /Electronics.html
-- title: HealthyMind
-  url: /HealthyMind.html
+- title: Health
+  url: /Health.html
 - title: Projects
   url: /Projects.html
-- title: SmallCrafts
-  url: /SmallCrafts.html
-- title: Agriculture
-  url: /Agriculture.html
+- title: Agri
+  url: /Agri.html
 - title: Tags
   url: /Tags.html
