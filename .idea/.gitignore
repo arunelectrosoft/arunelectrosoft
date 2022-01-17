@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+_site
+.sass-cache
+.jekyll-metadata
+.jekyll-cache/
+.idea

@@ -1,6 +1,7 @@
 {% assign postIDgen = 0 %}
 <div class="accordion" id="postSideBarID">
-        {% for item in site.data.navigation %}
+        {% for item in site.data.navigation  %}
+            {% unless item.title == "TopStories" %} <!--- Since TopStories donot have any post within site contents -->
             <div class="accordion-item">
             <h2 class="accordion-header" id="item{{ postIDgen }}heading">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item{{ postIDgen }}" aria-expanded="false" aria-controls="item{{ postIDgen }}">
@@ -18,5 +19,6 @@
             </div>
             </div>
         {% assign postIDgen = postIDgen | plus: 1 %}
+        {% endunless %}
         {% endfor %}
 </div>
