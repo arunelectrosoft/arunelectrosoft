@@ -1,15 +1,12 @@
 ---
 layout: post
-title:  "Computer Programming Language"
+title:  "Programming Top Tutorial Links"
 date:   2019-01-22
 categories: DigitalLibrary
 imgsrc: "tablerose.jpg"
 featured: "true"
 tags: [ proglang ]
 ---
-##
-## Programming Language Bookmarks
-
 This page tries to cover the **good articles**  about *computer programming languages*, which I have came across
 
 | Language  |  < > |   Web Links  | 
@@ -19,10 +16,11 @@ This page tries to cover the **good articles**  about *computer programming lang
 |          | |[Github Pages Table Organisation](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables/)|
 |          | |[Github flavoured Markdown](https://github.github.com/gfm/)
 |  | |  |
-| C        | |  |
-|          | |  |
-| CPP      | |  |
-|          | |  |
-| SW Arch  | |  |
+| HTML template        | | [ HTML Free and Paid templates](https://htmlcodex.com/) |
+| Yocto Tutorials and Android Tutorials | | [Bootlin Tutorials](https://github.com/bootlin/training-materials/tree/master/slides)  |
+
+
+
+
 
 
