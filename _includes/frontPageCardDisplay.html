@@ -1,22 +1,18 @@
-<div class="container-fluid mx-auto">
-    {% for collection_variable in site.collections | reversed %}
-        {% for node in collection_variable.docs %}
-        {% assign image_source_length =  node.imgsrc | size  %}
-        <div class="card mb-3 overflow-auto" style="height: 10rem;" >
-            <div class = "row g-0" >
-                <div class ="col-md-4">
-                    {% if image_source_length  > 0 %}
-                    <img src="{{ site.baseurl }}/assets/images/{{ node.imgsrc }}" class="card-img-top img-fluid " alt="{{ node.title }}">
-                    {% endif %}
+<div class="card-deck p-3">
+{% for collection_variable in site.collections | reversed %}
+    {% for node in collection_variable.docs %}
+    {% assign image_source_length =  node.imgsrc | size  %}
+              <div class="card p-3 m-2" >
+              {% if image_source_length  > 0 %}
+               <div class="card-img-top w-100">
+                  <img src="{{ site.baseurl }}/assets/images/{{ node.imgsrc }}" style="max-width: 100%; height:auto">
+               </div>
+                {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title b5 h4-sm"><a href="{{ site.baseurl }}{{ node.url }}"> {{ node.title }} </a></h5>
+                    <p class="card-text">  {{ node.content }}  </p>
                 </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="{{ site.baseurl }}{{ node.url }}"> {{ node.title }} </a></h5>
-                        <p class="card-text">  {{ node.content }}  </p>
-                    </div>
                 </div>
-            </div>
-        </div>
-        {% endfor %}
     {% endfor %}
+{% endfor %}
 </div>

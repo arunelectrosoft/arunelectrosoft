@@ -4,32 +4,38 @@
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
 {% assign links = site.data.navigation %}
-<nav class="navbar navbar-expand-md navbar-light bg-light justify-content-left">
-  <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
-  <img src="{{ site.baseurl }}/assets/images/brandicon1.jpg" height="30" alt="Arun'sBlogIcon">
-  </a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
-      </li>
-      <li class="nav-item  dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Topics
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          {% for item in site.data.navigation %}
-            <a class="dropdown-item " href= "{{ site.baseurl }}{{ item.url }}" > {{ item.title }} </a>
-          {% endfor %}
-        </div>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/about.html">About</a>
-      </li>
-    </ul>
-  </div>  
-</nav>
+  <nav class="navbar navbar-expand navbar-dark bg-success flex-column flex-md-row bd-navbar ">
+   <div class="container-fluid">
+    <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
+    <img src="{{ site.baseurl }}/assets/images/brandicon1.jpg" height="30" alt="Arun'sBlogIcon">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- <ul class="navbar-nav mr-auto"> -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
+        </li>
+        <li class="nav-item  dropdown">
+          <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Topics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for item in site.data.navigation %}
+            <a class="dropdown-item font-weight-bold" href= "{{ site.baseurl }}{{ item.url }}" > {{ item.title }} </a>
+            {% endfor %}
+          </div>
+        </li>
+        <li class="nav-item justify-content-right">
+            <a class="nav-link" href="{{ site.baseurl }}/about.html">About</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
 {%- include google-analytics.html -%}

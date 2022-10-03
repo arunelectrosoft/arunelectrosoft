@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head> 
  {%- include head.html -%}
 </head>
 <body>
-<div class="row">
-    <div class="col-xs-8 col-sm-8 col-md-10 .d-none .d-lg-block .d-xl-none">
-        {%- include frontPageCardDisplay.html -%}
-    </div>
-     <div class="col-xs-4 col-sm-4 col-md-2 .d-none .d-lg-block .d-xl-none">
-        {%- include postSidebar.html -%}
-    </div>
+<div class = "row" >
+     <div class="w-75 p-1 ">
+     {%- include frontPageCardDisplay.html -%}
+     </div>
+
+     <div class="w-25 p-1">
+     {%- include postSidebar.html -%}
+     </div>
 </div>
  {%- include footer.html -%}
 </body>

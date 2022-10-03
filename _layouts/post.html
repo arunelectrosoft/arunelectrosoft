@@ -6,16 +6,14 @@
 <body>
 
 <div class="col mb-4">
-  <div class="card bg-dark   text-white text-center  p-1">
+  <div class="card bg-dark   text-white p-1">
       {% assign image_source_length =  page.imgsrc | size  %}
       {% if image_source_length  > 0 %}
-        <img src="{{ site.baseurl }}/assets/images/{{ page.imgsrc }}" class="card-img-top img-thumbnail" alt="{{ node.title }}">
-      {% endif %}
-    <div class="card-img-overlay text-center">
+        <img class="card-img" src="{{ site.baseurl }}/assets/images/{{ page.imgsrc }}" style="max-width: 100%; height:auto" alt="{{ node.title }}">
+        <div class="card-img-overlay text-center">
         <h6 class="card-title"><a href="{{ site.baseurl }}{{ node.url }}" class="link-light">{{ node.title }}</a></h6>
-        <!--- <p class="card-text d-none d-lg-block">  {{ node.content }}  </p> -->
-    </div>
-  </div>
+        </div>
+      {% endif %}
 </div>
     <div clss="container-fluid mx-auto" >
         <div class="col-xs-12 col-sm-12 col-md-9 p-4">

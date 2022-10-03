@@ -12,7 +12,7 @@ Are your dreams are still a dream only?
 
 where all the energy in you gone ?
 
-What you have in late 30s and what you donot ?
+What you have in late 30s and what you do not ?
 
 Already feeling like job, salary, invesment, family needs - end of life ?
 
