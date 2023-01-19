@@ -3,7 +3,7 @@ layout: post
 title:  "Programming Top Tutorial Links"
 date:   2019-01-22
 categories: DigitalLibrary
-imgsrc: "none"
+imgsrc: 
 tags: [ proglang ]
 ---
 This page tries to cover the **good articles**  about *computer programming languages*, which I have came across
