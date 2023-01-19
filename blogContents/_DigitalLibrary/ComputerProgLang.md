@@ -19,8 +19,3 @@ This page tries to cover the **good articles**  about *computer programming lang
 | Yocto Tutorials and Android Tutorials | | [Bootlin Tutorials](https://github.com/bootlin/training-materials/tree/master/slides)  |
 |CMAKE| | [ Modern CMake System Explained ](https://cliutils.gitlab.io/modern-cmake/)|
 
-
-
-
-
-
