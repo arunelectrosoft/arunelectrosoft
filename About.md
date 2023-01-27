@@ -1,19 +1,11 @@
 ---
-layout: frontpage
-title: Technical Memory
+layout: AboutPageLayout
+title: About ArunKumar 
 ---
 
-### About ArunKumar Muruganasamy
+### My Passion
 
 
+## Sustainable Products
 
-| Description  |  < > |   Web Links  |
-| :---: | :---: | :--- |
-| Linked In Link | |[ Linked In Profile ](http://www.linkedin.com/in/arunadventure/) | 
-| Email | |[ Linked In Profile ](mailto:arun.electrosoft@gmail.com) | 
-
-
-| Skill Set  |  < > |   Practice Projects |
-| :---: | :---: | :--- |
-| Python | |[ Worked Python concepts ](https://arunelectrosoft.github.io/arbyte-python/) | 
-| CPP | |[ Worked CPP concepts ](mailto:arun.electrosoft@gmail.com) | 
+## Engineering Design for Improving live of Working Class
