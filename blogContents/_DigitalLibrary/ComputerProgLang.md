@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Programming Top Tutorial Links"
+title:  "Good Programming Syntax Tutorials/Guides"
 date:   2019-01-22
 categories: DigitalLibrary
 imgsrc: 
