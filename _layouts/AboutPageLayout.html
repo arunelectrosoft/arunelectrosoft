@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head> 
+ {%- include head.html -%}
+</head>
+<body>
+     <div class="container">             
+        <div class = "row" >
+               <div class="w-25 p-3">
+                  {%- include frontPageAuthorSidebar.html -%}
+               </div>
+               <div class="w-75 p-0 ">
+                <h1 r>   {{ page.title }}  </h1>
+                {{page.content}}
+               </div>
+          </div>
+     </div>
+{%- include footer.html -%}
+</body>
+</html>
+
+
+
