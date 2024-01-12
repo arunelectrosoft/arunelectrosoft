@@ -1,8 +1,8 @@
-title: Arun'sTechJourney
+title: Arun's TechJourney
 email: arun.electrosoft@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   
-  Blog Template for Jekyll with GitHub Pages and Bootstrap integrated. 
+  Blog Code for Jekyll with GitHub Pages and Bootstrap integrated. 
   This template is tested with latest Bootstrap 5 features. 
 baseurl:
 # Working baseurl for github.io  baseurl: /TechMemory
@@ -12,11 +12,11 @@ url: https://arunelectrosoft.github.io/
 github_username:  arunelectrosoft
 markdown: kramdown
 
-kramdown:
-  syntax_highlighter: coderay
-  syntax_highlighter_opts:
-    line_numbers: table
-    bold_every: 5
+#kramdown:
+#  syntax_highlighter: coderay
+#  syntax_highlighter_opts:
+#    line_numbers: table
+#    bold_every: 5
 
 collections_dir: blogContents
 collections:
@@ -66,5 +66,3 @@ sass:
 #  MarketAnalysis:
 #  GovtSchemes:
 #  siteTestingPosts:
-
-theme: jekyll-theme-slate

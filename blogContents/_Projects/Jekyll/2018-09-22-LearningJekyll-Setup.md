@@ -3,27 +3,41 @@ layout: post
 title:  "WebPage using Jekyll & GithubPages"
 date:   2018-09-22
 categories: Blogging
-published: false
+published: true
 ---
 
-Jekyll Installation is simple.
+### what is Jekyll ?
+It is a static website ( website using plain html) generator.
+Jekyll will help to create website and push to github pages.
 
-Refer to
-<b> <a href="https://jekyllrb.com/docs/" > JEKYLL DOCUMENTATION </a> </b>
+### JEKYLL Installation on Local PC. 
+Jekyll Installation is very simple. Refer to <b> <a href="https://jekyllrb.com/docs/" > JEKYLL DOCUMENTATION </a> </b>
 
+Step 1: Install Ruby
+Step 2: Execute following commands in the command prompt, at the location desired project folder. 
 
-1. Install Ruby
-2. $sudo gem install jekyll bundle
-3. $sudo jekyll new website_name
-4. $sudo jekyll serve
+> $sudo gem install jekyll bundle
+> $sudo jekyll new website_name
 
-5. Working with Blog for GitHub Pages
-   $ bundle update
-   $ sudo bundle exec jekyll clean && sudo bundle exec jekyll server --baseurl ""
+Donot use sudo for the below command. when trying to do jekyll serve. 
+>$bundle exec jekyll serve
 
+### Working with Blog for GitHub Pages
+
+> $ bundle update
+> $ bundle exec jekyll clean && bundle exec jekyll server --baseurl ""
 Above command will host the static site in local host http://127.0.0.1:4000
 
-what is Jekyll ?
+Always use '$bundle update' command to keep the gems up to date. 
+If any the gems are missing locally, it can be corrected using 
+
+> $bundle add <gemname>
+> $bundle add webrick
+> $bundle add faraday-retry
+The above command solved one webrick loading error in Jekyll 3.9.3 version. 
+
+
+### Again what is Jekyll ?
 It is a static website ( website using plain html) generator.
 
 What are the default folders ?

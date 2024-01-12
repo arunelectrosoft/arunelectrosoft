@@ -2,7 +2,7 @@
 title: Debugging Jekyll
 layout: post
 categories: Blogging
-published: false
+published: true
 ---
 
 In this post, I am trying to note down my experience with Jekyll debugging. 
