@@ -1,7 +1,5 @@
 <div class="card-deck p-3">
-
 <h3 class="display-4"> Articles sprouts from My Head's Terracota</h3>
-
 {% for collection_variable in site.collections | reversed %}
     {% for node in collection_variable.docs %}
     {% assign image_source_length =  node.imgsrc | size  %}

@@ -6,12 +6,12 @@ categories: Blogging
 published: true
 ---
 
-### what is Jekyll ?
-It is a static website ( website using plain html) generator.
-Jekyll will help to create website and push to github pages.
+### What is Jekyll?
+It is a static website (website using plain HTML) generator.
+Jekyll will help to create a website and push it to GitHub Pages.
 
-### JEKYLL Installation on Local PC. 
-Jekyll Installation is very simple. Refer to <b> <a href="https://jekyllrb.com/docs/" > JEKYLL DOCUMENTATION </a> </b>
+### Jekyll Installation on Local PC
+Jekyll installation is very simple. Refer to <b><a href="https://jekyllrb.com/docs/">JEKYLL DOCUMENTATION</a></b>
 
 Step 1: Install Ruby
 Step 2: Execute following commands in the command prompt, at the location desired project folder. 
@@ -19,26 +19,26 @@ Step 2: Execute following commands in the command prompt, at the location desire
 > $sudo gem install jekyll bundle
 > $sudo jekyll new website_name
 
-Donot use sudo for the below command. when trying to do jekyll serve. 
->$bundle exec jekyll serve
+Do not use sudo for the below command when trying to do `jekyll serve`.
+> $bundle exec jekyll serve
 
 ### Working with Blog for GitHub Pages
 
 > $ bundle update
 > $ bundle exec jekyll clean && bundle exec jekyll server --baseurl ""
-Above command will host the static site in local host http://127.0.0.1:4000
+The above command will host the static site on localhost at http://127.0.0.1:4000
 
-Always use '$bundle update' command to keep the gems up to date. 
-If any the gems are missing locally, it can be corrected using 
+Always use `$bundle update` command to keep the gems up to date. 
+If any gems are missing locally, it can be corrected using 
 
 > $bundle add <gemname>
 > $bundle add webrick
 > $bundle add faraday-retry
-The above command solved one webrick loading error in Jekyll 3.9.3 version. 
+The above command solved one Webrick loading error in Jekyll 3.9.3 version.
 
 
-### Again what is Jekyll ?
-It is a static website ( website using plain html) generator.
+### Again, what is Jekyll?
+It is a static website (website using plain HTML) generator.
 
 What are the default folders ?
 
@@ -59,9 +59,9 @@ we need to know what is responsive pages.
 What is Responsive Pages ?
 The site will change its content size based on the device screen size.
 
-What i understood from BootStrap,
-BootStrap is a collection of opensource java scripts,
-which will generate css, along with html for creating responsive pages.
+What I understood from Bootstrap,
+Bootstrap is a collection of open-source JavaScripts,
+which will generate CSS, along with HTML for creating responsive pages.
 
 Responsive pages helps to view content on mobile/desktop seamlessly.
 
@@ -81,10 +81,30 @@ below.
 https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sass-part-1/
 above link needs some understanding of jekyll and how it works, so it may not work in first shot. !!
 
-Common Erros and Resolution:
+Common Errors and Resolutions:
 1. https://stackoverflow.com/questions/45205310/bootstrap-css-not-working-on-github-pages
 2. https://stackoverflow.com/questions/48778736/github-pages-failing-to-properly-link-to-my-assets-and-relative-urls
 3. https://stackoverflow.com/questions/16316311/github-pages-and-relative-paths
 4.  One Guys has done extensive liquid markup coding
 in link https://github.com/plusjade/jekyll-bootstrap/tree/master/_includes/JB
+
+### How the Bootstrap is helpful to design websites for differnt devices (mobile to TV displays) ?
+
+View port and Breakpoint are the key concepts of Boot Strap. 
+
+The some of breakpoints and corresponding devices are given below, 
+
+extra small - none
+small - sm
+medium - md
+large - lg
+extra large - xl
+extra extra large - xxl
+
+##### Within Breakpoints:
+Each breakpoiont for a device (sm-Mobile to xxl-TV ) is chosen in Bootstrap to have 12 width configurations. 
+
+
+
+
 
