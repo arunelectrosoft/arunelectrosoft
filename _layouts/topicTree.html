@@ -14,7 +14,7 @@
                         {% assign collection = site.collections | where: "label",page.topic | first %}
                         {% for node in collection.docs reversed %}
                         <tr>
-                            <td> <a href="{{ site.baseurl }}{{ node.url }}"> {{ node.title }} </a> </td>
+                            <td> <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }} </a> </td>
                         </tr>
                         {% endfor %}
                 </tbody>

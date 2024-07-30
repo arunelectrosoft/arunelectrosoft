@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="col mb-4">
-  <div class="card bg-dark   text-white p-1">
+  <div class="card bg-light   text-white p-1">
       {% assign image_source_length =  page.imgsrc | size  %}
       {% if image_source_length  > 0 %}
         <img class="card-img" src="{{ site.baseurl }}/assets/images/{{ page.imgsrc }}" style="max-width: 100%; height:auto" alt="{{ node.title }}">

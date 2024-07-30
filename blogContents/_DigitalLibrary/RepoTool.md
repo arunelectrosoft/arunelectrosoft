@@ -1,9 +1,11 @@
 ---
-title: Repo Basics
+title: RepoTool
 layout: post
 categories: DigitalLibrary
-published: false
+published: true
 ---
+
+
 # Repo Tool Basics
 
 Google created a repo tool to simplify working with several open source git repositories. 

@@ -12,18 +12,12 @@ url: https://arunelectrosoft.github.io/
 github_username:  arunelectrosoft
 markdown: kramdown
 
-#kramdown:
-#  syntax_highlighter: coderay
-#  syntax_highlighter_opts:
-#    line_numbers: table
-#    bold_every: 5
-
 collections_dir: blogContents
 collections:
-  Health:
+  Projects:
     output: true
     permalink: /:collection/:path
-  Projects:
+  Health:
     output: true
     permalink: /:collection/:path
   DigitalLibrary:
