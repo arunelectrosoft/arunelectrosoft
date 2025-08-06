@@ -1,4 +1,3 @@
----
 layout: post
 title:  "Good Programming Syntax Tutorials/Guides"
 date:   2019-01-22
@@ -22,5 +21,3 @@ This page tries to cover the **good articles**  about *computer programming lang
 |  | |  | |
 |  | |  | |
 |  | |  | |
-
-

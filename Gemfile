@@ -51,3 +51,5 @@ end
 gem "webrick", "~> 1.8"
 
 gem "faraday-retry", "~> 2.2"
+
+gem "jekyll", "~> 3.10"
